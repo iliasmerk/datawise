@@ -1,0 +1,28 @@
+.font30{
+    font-size:30px;
+}
+
+.mrigh10{
+    margin-right: 10px;
+}
+
+img, video {
+    max-width: 266px;
+    height: 200px;
+    border-radius: 25px;
+}
+
+.black{
+    color:black
+}
+
+.mtop50{
+    margin-top:50px;
+}
+
+.backtoground{
+    padding: 34px 37px;
+    border-radius: 25px;
+    border: 1px rgba(0,0,0,.2) solid;
+    background-color: rgba(0,0,0,.2); 
+}

@@ -1,0 +1,9 @@
+{
+    "Activities":[
+        {"type":"hiking","distance":"2km away","image":"hiking.jpg"}, 
+        {"type":"walk","distance":"1.5km away","image":"walk.jpg"}, 
+        {"type":"waterpark","distance":"3km away","image":"waterpark.jpg"}, 
+        {"type":"beach","distance":"500m away","image":"beach.jpg"}
+         ]
+}
+ 

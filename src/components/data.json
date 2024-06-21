@@ -1,0 +1,12 @@
+{
+    "New York":[
+        {"day": "Monday", "type" : "Cloudy","temperature":"30","realfeel":"30","wind":"0.8","changeofrain":"60 %","UVIndex":4}, 
+        {"day": "Tuesday", "type" : "Rainy","temperature":"35","realfeel":"35","wind":"0.5","changeofrain":"80 %","UVIndex":4}, 
+        {"day": "Wednesday", "type" : "Cloudy","temperature":"30","realfeel":"30","wind":"0.8","changeofrain":"60 %","UVIndex":4}, 
+        {"day": "Thursday", "type" : "Cloudy","temperature":"30","realfeel":"30","wind":"0.8","changeofrain":"60 %","UVIndex":4}, 
+        {"day": "Friday", "type" : "Sunny","temperature":"20","realfeel":"20","wind":"0.2","changeofrain":"3 %","UVIndex":4}, 
+        {"day": "Saturday", "type" : "Cloudy","temperature":"30","realfeel":"30","wind":"0.8","changeofrain":"60 %","UVIndex":4}, 
+        {"day": "Sunday", "type" : "Rainy","temperature":"35","realfeel":"35","wind":"0.5","changeofrain":"80 %","UVIndex":4}
+    ]
+}
+ 

@@ -1,0 +1,38 @@
+.mantine-Carousel-controls button{
+    width: 30px !important;
+    color: #b2a325;
+    margin-top: -50px!important;
+}
+
+
+.backtoground{
+    padding: 34px 37px;
+    border-radius: 25px;
+    border: 1px rgba(0,0,0,.2) solid;
+    background-color: rgba(0,0,0,.2); 
+}
+
+.mtop20{
+    margin-top:20px;
+}
+
+.mright10{
+    margin-right: 10px;
+}
+
+.leftalign{
+    text-align: left;
+}
+
+.mtop40{
+    margin-top:40px;
+}
+
+.aircond{
+    font-weight: 600;
+    font-size: 16px; 
+}
+
+.pao{
+    font-size: 13px;
+}
