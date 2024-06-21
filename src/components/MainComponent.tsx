@@ -13,7 +13,7 @@ import rainy from './images/rainy.jpg';
 import sunny from './images/sunny.jpg';
 import cloudy  from './images/cloudy.jpg'; 
 import Hourly from './Hourly';
- 
+import ControlPanel from './ControlPanel';
 
 const days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 const d = new Date();
@@ -47,7 +47,12 @@ let icon = "";
 function MainComponent() { 
   return ( 
     <div  className="main-container"> 
-        <div  style={myStyle} className="radius grid grid-cols-[80%_20%] grid-rows-1 gap-4">
+        {/* <div  style={myStyle} className="radius grid grid-cols-[10%_70%_20%] grid-rows-1 gap-4"> */}
+        <div  style={myStyle} className="radius grid grid-cols-[100%] md:grid-cols-[100%] lg:grid-cols-[10%_70%_20%] gap-4"> 
+            <div>
+              <div className="heightfirst controlpan"></div>
+              <ControlPanel></ControlPanel>
+            </div>
             <div className="left-container">
               <div className='pt90 heightfirst'>
                   <div className='bold font20'><FontAwesomeIcon icon={faLocationDot} /> New York </div>

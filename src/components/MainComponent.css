@@ -110,3 +110,12 @@
   margin-right: 10px;
 }
 
+@media only screen and (max-width: 1600px) { 
+  .controlpan{
+    display: none!important;
+  } 
+  
+.main-container{
+  height: 100%;
+}
+}
