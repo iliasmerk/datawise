@@ -49,8 +49,8 @@ function MainComponent() {
     <div  className="main-container"> 
         {/* <div  style={myStyle} className="radius grid grid-cols-[10%_70%_20%] grid-rows-1 gap-4"> */}
         <div  style={myStyle} className="radius grid grid-cols-[100%] md:grid-cols-[100%] lg:grid-cols-[10%_70%_20%] gap-4"> 
-            <div>
-              <div className="heightfirst controlpan"></div>
+            <div className='controlpan'>
+              <div className="heightfirst "></div>
               <ControlPanel></ControlPanel>
             </div>
             <div className="left-container">
