@@ -83,7 +83,7 @@
 
 .right-container{
   
-  padding-right: 22px;
+  padding-right: 42px;
 }
 
 .bold{
@@ -120,5 +120,22 @@
 
   .main-container{
     height: 100%;
+  }
+}
+
+@media only screen and (max-width: 1024px) { 
+  .left-container{
+    padding-left:0px;
+    text-align:center!important; 
+  }
+
+  .left-container img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .controlpan{
+    display: none !important;
   }
 }

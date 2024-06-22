@@ -38,7 +38,7 @@ function drawactivities() {
 
 function Activities() { 
   return (
-        <div className="backtoground">
+        <div className="backtoground mobileact">
           <FontAwesomeIcon className='font30 mrigh10' icon={faHeart} />
           <span className='font30'>Activities in your area</span>
           {/* <div  className="mtop50 radius grid grid-cols-[25%_25%_25%_25%] grid-rows-1 gap-4">   */}

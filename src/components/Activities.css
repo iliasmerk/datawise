@@ -27,16 +27,34 @@ img, video {
     background-color: rgba(0,0,0,.2); 
 }
 
+@media only screen and (min-width: 1024px) and (max-width: 1249px) { 
+    img, video {
+        max-width: 191.9px;
+    } 
+}
+@media only screen and (min-width: 1250px) and (max-width: 1279) { 
+    img, video {
+        max-width: 128px;
+    } 
+}
 
-@media only screen and (min-width: 1250px) and (max-width: 1700px) { 
+
+@media only screen and (min-width: 1280px) and (max-width: 1700px) { 
     img, video {
         max-width: 142px;
     } 
 }
 
+
+@media only screen and (min-width: 1500px) and (max-width: 1700px) { 
+    img, video {
+        max-width: 170px;
+    } 
+}
+
 @media only screen and (min-width: 1701px) and (max-width: 2100px) { 
     img, video {
-        max-width: 200px;
+        max-width: 190px;
     } 
 }
 
@@ -44,4 +62,11 @@ img, video {
     img, video {
         max-width: 200px;
     } 
+}
+
+
+@media only screen and (max-width: 1024px) { 
+    .mobileact{
+        padding:0px 0px !important;
+    }
 }
